@@ -100,6 +100,14 @@ Other options:
 - Running ```Testsuite_CBC.launch``` requires Google OR tools (see installation step 7).
 - ```Testsuite_SAT4J.launch``` uses the SAT4J (automatically installed, but the slowest option).
 
+### Eclipse on Windows
+
+If your are using the Eclipse IDE on Windows, make sure to exclude it and your workspaces from your anti virus software, e.g., Windows Defender.
+Otherwise, the performance of Eclipse will be much worse, because Windows Defender will keep scanning newly created/changed files constantly.
+
+- Within your Eclipse IDE, click on _Window_ -> _Preferences_ -> _General_ -> _Startup and Shutdown_
+- Follow the instructions in the box "Microsoft Defender Exclusion Check" to let Eclipse exclude itself from Windows Defender scans.
+
 
 ## How to install
 
